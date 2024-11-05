@@ -1,29 +1,5 @@
 body{
     background-color: black;
-}
-
-.title {
-    font-family: Arial, Tahoma;
-
-    font-size: 45px;
-
-    color: rgb(255, 0, 0);
-
-    text-align: center;
-}
-
-.STFGame {
-    font-size: 50px;
-
-    margin: 40, 40;
-}
-
-.block{
-    height: 50px;
-    width: 50px;
-
-    border: 8px black dashed;
-
-    display: flex;
-
+    background-image: url("ISCWEBTEASER.gif");
+    background-size: 100vw 100vh;;
 }
