@@ -1,5 +1,19 @@
+@font-face {
+	font-family: 'Bahnschrift'; 
+	src: url(/fonts/Bahnschrift.ttf); 
+}
+
 body{
     background-color: black;
     background-image: url("https://ironstonecollective.ru/ISCWEBTEASER.gif");
     background-size: 100vw 100vh;;
+}
+
+.SuperSecretLink{
+    font-family: Bahnschrift;
+    color: black;
+}
+
+div{
+    align-self: center;
 }
