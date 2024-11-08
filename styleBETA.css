@@ -1,0 +1,234 @@
+:root {
+    --WhiteYellow:rgb(177, 158, 116);
+}
+:root {
+    --GlowYellow:rgb(206, 159, 58);
+}
+
+@font-face {
+	font-family: 'Bahnschrift'; 
+	src: url(/fonts/Bahnschrift.ttf); 
+}
+
+
+body{
+    background-color: rgb(0, 0, 0);
+    /* background-image: url("https://ironstonecollective.ru/ISCWEBTEASER.gif"); */
+    background-size: 100vw 100vh;
+}
+
+
+.linesHolder{
+    pointer-events: none;
+    display: inline;
+    position: absolute;
+    width: 99vw;
+    height: 99vh;
+    z-index: 1;
+    background-image: url("https://ironstonecollective.ru/lines.png");
+    background-size: 20%;
+    filter: saturate(70%) contrast(100%);
+    opacity: 0.6;
+    mix-blend-mode:soft-light;
+}
+
+
+.iscLogo{   
+    z-index: 2;
+    position: absolute;
+    margin: 0px 0px;
+
+    width: 99vw;
+    height: 200px;
+
+    border-bottom-color: var(--WhiteYellow);
+
+    border-style:solid;
+    border-width: 2px;
+
+    font-family: Bahnschrift;
+    
+}
+
+
+.iscImg{
+    z-index: 2;
+    filter:drop-shadow(0px 0px 10px white);
+
+    position: absolute;
+
+    left: 10px;
+    top: 10px;
+}
+
+.iscText{
+    z-index: 2;
+    position: absolute;
+    
+    left: 175px;
+    top: 50px;
+
+    display: inline-block;
+
+    color: white;
+    font-family: Bahnschrift, sans-serif;
+    text-shadow: 0px 0px 10px white;
+
+    font-size: 50px;
+
+    text-align: center;
+}
+.ITcoll{
+    z-index: 2;
+    letter-spacing: 10px;
+    position: relative;
+    left: 10px;
+}
+
+.r{
+    z-index: 2;
+    position: relative;
+    bottom: 10px;
+    font-size: 25px;
+}
+
+.quote{
+    position: absolute;
+    z-index: 0;
+    right: 20px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    color: var(--WhiteYellow);
+    font-family: 'Century Gothic';
+    text-align: right;
+    font-size: 35px;
+
+}
+
+.aboutBtn{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left: 6vw;
+    color: var(--WhiteYellow);
+    width: 70px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Century Gothic';
+}
+.aboutBtn:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 20px var(--GlowYellow);
+}
+
+.newsBtn{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left: 23vw;
+    color: var(--WhiteYellow);
+    width: 70px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Century Gothic';
+}
+.newsBtn:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 20px var(--GlowYellow);
+}
+
+.mediaBtn{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left: 40vw;
+    color: var(--WhiteYellow);
+    width: 70px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Century Gothic';
+}
+.mediaBtn:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 20px var(--GlowYellow);
+}
+
+.teamBtn{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left: 57vw;
+    color: var(--WhiteYellow);
+    width: 70px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Century Gothic';
+}
+.teamBtn:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 20px var(--GlowYellow);
+}
+
+.faqBtn{
+    z-index: 0;
+    position: absolute;
+    top: 250px;
+    left: 74vw;
+    color: var(--WhiteYellow);
+    width: 70px;
+    height: 30px;
+    font-size: 30px;
+    text-shadow: 0px 0px 20px var(--WhiteYellow);
+    background-color: transparent;
+    border-color: transparent;
+    font-family: 'Century Gothic';
+}
+.faqBtn:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 20px var(--GlowYellow);
+}
+
+.STFholder{
+    z-index: 0;
+    background-color: transparent;
+    border-color: transparent;
+    
+    position: absolute;
+    right: 6vw;;
+    top: 220px;
+    width: 110px;
+    height: 110px;
+    filter: sepia(100%) contrast(75%) brightness(110%) saturate(200%) drop-shadow(0px 0px 10px var(--WhiteYellow));
+}
+.STFholder:hover{
+    color: var(--GlowYellow);
+    text-shadow: 0px 0px 10px var(--GlowYellow);
+    filter: sepia(100%) contrast(80%) brightness(120%) saturate(250%) drop-shadow(0px 0px 10px var(--GlowYellow));
+}
+.STFimg{
+    z-index: 0;
+    width: 100%;
+    height: auto;
+}
+
+
+/*
+about 
+news
+media
+team
+faq
+*/
+
+/* onclick="location.href = 'https://ironstonecollective.ru/about'" */
