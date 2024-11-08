@@ -222,6 +222,19 @@ body{
     height: auto;
 }
 
+.homeBtn{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 4;
+    width: 530px;;
+    height: 200px;
+}
+
+button{
+    cursor: pointer;
+}
+
 
 /*
 about 
