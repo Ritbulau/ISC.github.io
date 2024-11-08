@@ -1,3 +1,21 @@
 .HugeCPLogo{
-    filter:drop-shadow(0px 0px 10px --GlowYellow)
+    position: absolute;
+    filter:drop-shadow(0px 0px 10px var(--GlowYellow));
+    height: auto;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 220px;
+}
+
+.CPText{
+    color: var(--WhiteYellow);
+    text-align: center;
+    font-family: Bahnschrift;
+    font-size: 50px;
+}
+
+.imgCP{
+    display: flex;
+    justify-self: center;
+    width: 150%;
 }
