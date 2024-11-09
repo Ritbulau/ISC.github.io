@@ -22,3 +22,20 @@
     justify-self: center;
     width: 150%;
 }
+
+
+.CPimagesHolder{       
+    z-index: 0;
+    position: absolute;
+    margin: 0px 0px;
+
+    width: 99vw;
+    height: 200px;
+
+    border-bottom-color: var(--WhiteYellow);
+
+    border-style:solid;
+    border-width: 2px;
+
+    font-family: Bahnschrift;
+}
