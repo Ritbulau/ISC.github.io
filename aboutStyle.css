@@ -1,11 +1,14 @@
 .HugeCPLogo{
     position: absolute;
     filter:drop-shadow(0px 0px 50px var(--DimWhiteYellow));
-    height: auto;
     left: 50%;
     transform: translateX(-50%);
     top: 220px;
 }
+.HugeCPLogo:hover{
+    cursor: pointer;
+}
+
 
 .CPText{
     color: var(--WhiteYellow);
@@ -31,6 +34,8 @@
 
     width: 99vw;
     height: 200px;
+
+    top: 1000px;
 
     border-bottom-color: var(--WhiteYellow);
 
