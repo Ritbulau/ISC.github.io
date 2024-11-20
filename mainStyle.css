@@ -12,6 +12,10 @@
     --DimGlowYellow:rgb(206, 159, 58);
 }
 
+* {
+    scrollbar-color: var(--GlowYellow) transparent;
+}
+
 @font-face {
 	font-family: 'Bahnschrift'; 
 	src: url("https://ironstonecollective.ru/fonts/Bahnschrift.ttf"); 

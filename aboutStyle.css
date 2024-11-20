@@ -30,17 +30,50 @@
 .CPimagesHolder{       
     z-index: 0;
     position: absolute;
-    margin: 0px 0px;
+    margin-top: auto;
+
+    /*
+    width: 99vw;
+    height: 300px;
+    */
 
     width: 99vw;
-    height: 200px;
+    height: auto;
 
     top: 1000px;
 
     border-bottom-color: var(--WhiteYellow);
+    border-top-color: var(--WhiteYellow);
 
     border-style:solid;
     border-width: 2px;
 
     font-family: Bahnschrift;
+}
+
+.CPimg1{
+    width: 30vw;
+    height: auto;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
+}
+
+.CPimg2{
+    width: 30vw;
+    height: auto;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
+}
+
+.CPimg3{
+    width: 30vw;
+    height: auto;
+    margin-left: 2.5vw;
+    margin-top: 2vw;
+    margin-bottom: 2vw;
+    filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
 }
