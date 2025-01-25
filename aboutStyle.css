@@ -5,9 +5,6 @@
     transform: translateX(-50%);
     top: 220px;
 }
-.HugeCPLogo:hover{
-    cursor: pointer;
-}
 
 
 .CPText{
@@ -23,27 +20,29 @@
 .imgCP{
     display: flex;
     justify-self: center;
-    width: 150%;
+    width: 80%;
 }
-
+.imgCP:hover{
+    cursor: pointer;
+}
 
 .CPimagesHolder{       
     z-index: 0;
-    position: absolute;
-    margin-top: auto;
+    /* position: absolute; */
+    margin-top: 750px;
 
     /*
     width: 99vw;
     height: 300px;
     */
-
-    width: 99vw;
-    height: auto;
-
-    top: 1000px;
+    display: flex;
+    justify-content:space-evenly;
+    width: 100vw;
 
     border-bottom-color: var(--WhiteYellow);
     border-top-color: var(--WhiteYellow);
+    border-left-color: rgba(0,0,0,0);
+    border-right-color: rgba(0,0,0,0);
 
     border-style:solid;
     border-width: 2px;
@@ -53,27 +52,23 @@
 
 .CPimg1{
     width: 30vw;
-    height: auto;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    
     filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
 }
 
 .CPimg2{
     width: 30vw;
-    height: auto;
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
+    
     filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
 }
 
 .CPimg3{
     width: 30vw;
-    height: auto;
+    
+    /*
     margin-left: 2.5vw;
     margin-top: 2vw;
     margin-bottom: 2vw;
+    */
     filter:drop-shadow(0px 0px 20px var(--DimWhiteYellow));
 }
