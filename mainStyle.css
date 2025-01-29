@@ -11,7 +11,11 @@
 
 @font-face {
 	font-family: 'Bahnschrift'; 
-	src: url("https://ironstonecollective.ru/fonts/Bahnschrift.ttf"); 
+	src: url(fonts/Bahnschrift.ttf); 
+}
+@font-face {
+	font-family: 'CentryGothicReg'; 
+	src: url(fonts/CenturyGothic.ttf); 
 }
 
 
@@ -33,7 +37,7 @@ body{
     bottom: 1px;
     right: 0;
     z-index: 1;
-    background-image: url("https://ironstonecollective.ru/lines.png");
+    background-image: url(lines.png);
     background-size: 20%;
     filter: saturate(70%) contrast(100%);
     opacity: 0.6;
@@ -86,7 +90,7 @@ body{
     display: inline-block;
 
     color: white;
-    font-family: Bahnschrift, sans-serif;
+    font-family: Bahnschrift, CentryGothicReg, Arial;
     text-shadow: 0px 0px 10px white;
 
     font-size: 50px;
@@ -117,7 +121,7 @@ body{
     font-size: 30px;
     text-shadow: 0px 0px 20px var(--WhiteYellow);
     color: var(--WhiteYellow);
-    font-family: 'Century Gothic';
+    font-family: CentryGothicReg, Arial;
     text-align: end;
 }
 .subQuote{
