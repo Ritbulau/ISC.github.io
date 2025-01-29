@@ -85,7 +85,7 @@
 }
 
 .STFholder{
-    z-index: 1;
+    z-index: 0;
     background-color: transparent;
     border-color: transparent;
     
