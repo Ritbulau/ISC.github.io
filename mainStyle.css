@@ -1,8 +1,8 @@
 :root {
     --WhiteYellow:rgb(177, 158, 116);
-    --GlowYellow:rgb(206, 159, 58);
+    --GlowYellow:rgb(209, 167, 76);
     --DimWhiteYellow:rgb(94, 81, 52);
-    --DimGlowYellow:rgb(206, 159, 58);
+    --DimGlowYellow:rgb(151, 128, 79);
 }
 
 * {
@@ -139,6 +139,42 @@ body{
     width: 530px;
     height: 200px;
     top: 1px;
+}
+
+.contact{
+    position: absolute;
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 3vw;
+    width: 90%;
+    left:5%;
+    bottom:0;
+}
+.youCan{
+    display: block;
+    margin-left: 5%;
+    margin-top: 50px;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.596);
+}
+.contactsHolder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Btn{
+    scale: 100%;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    height: 3vw;
+    filter:drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.336));
+}
+
+.Btn:hover{
+    cursor: pointer;
+    scale: 105%;
 }
 
 button{

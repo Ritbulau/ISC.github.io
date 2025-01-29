@@ -1,0 +1,80 @@
+.DiscordLink{
+    width: 10vw;
+}
+
+.qna{
+    font-family: Bahnschrift;
+    color: white;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.596);
+    font-size: 2vw;
+    margin-top: 38.5px;
+    height: fit-content;
+    left: 2px;
+    right: 2px;
+    padding-bottom: 45px;
+    border-bottom-style: double;
+    border-color: var(--WhiteYellow);
+    border-bottom-width: 4px;
+}
+.Question{
+    display: block;
+    font-family: Bahnschrift;
+    margin-left: 5%;
+}
+.Answer{
+    display: block;
+    font-family: Bahnschrift;
+    margin-top: 30px;
+    margin-left: 5%;
+}
+
+.orangeText{
+    color: var(--GlowYellow)
+}
+.YellowText{
+    color: var(--WhiteYellow);
+}
+.Cyberlink{
+    color: orange;
+    transition-property: font-size;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+}
+.Cyberlink:hover{
+    cursor: pointer;
+    font-size: 2.25vw;
+}
+
+.contact{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 3vw;
+    width: 90%;
+    margin: auto;
+}
+.youCan{
+    display: block;
+    margin-left: 5%;
+    margin-top: 50px;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.596);
+}
+.contactsHolder{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Btn{
+    scale: 100%;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    height: 4vw;
+    filter:drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.336));
+}
+
+.Btn:hover{
+    cursor: pointer;
+    scale: 105%;
+}
