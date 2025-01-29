@@ -41,6 +41,11 @@ body{
     animation: shake 0.225s;
     animation-iteration-count: infinite;
     overscroll-behavior: contain;
+    user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -o-user-select: none;
 }
 
 
