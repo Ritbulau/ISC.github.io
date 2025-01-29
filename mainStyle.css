@@ -130,13 +130,15 @@ body{
     top: 0px;
 }
 
-.Btn:hover{
-    cursor: pointer;
-    scale: 105%;
-}
 
-button{
-    cursor: pointer;
+.homeBtn{
+    position: absolute;
+    background-color: transparent;
+    border-color: transparent;
+    z-index: 4;
+    width: 530px;
+    height: 200px;
+    top: 1px;
 }
 
 
