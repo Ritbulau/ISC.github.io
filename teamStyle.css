@@ -1,6 +1,13 @@
+:root {
+    --DescFontSize:1.75vw;
+}
+:root {
+    --NameFontSize:2vw;
+}
+
 .consilium{
     width: 90%;
-    height: 400px;
+    height: fit-content;
     border-width: 1px;
     font-family: Bahnschrift;
     margin: auto;
@@ -13,7 +20,7 @@
 .ConsMembers{
     display:flex;
     width: 100%;
-    height: 200px;
+    height: fit-content;
     justify-content: space-between;
     color: white;
     font-size:200%;
@@ -23,10 +30,11 @@
 .Glac1er{
     position: relative;
     width: 20%;
-    height: auto;
+    height: fit-content;
 }
 .GRname{
     height:10%;
+    font-size: var(--NameFontSize);
 }
 .GRpic{
     width: 100%;
@@ -34,16 +42,17 @@
     box-shadow: 0px 0px 30px var(--DimGlowYellow);
 }
 .GRdesc{
-    font-size: 75%;
+    font-size: var(--DescFontSize);
 }
 
 .Ritbulau{
     position: relative;
     width: 20%;
-    height: auto;
+    height: fit-content;
 }
 .RUname{
     height:10%;
+    font-size: var(--NameFontSize);
 }
 .RUpic{
     width: 100%;
@@ -51,16 +60,17 @@
     box-shadow: 0px 0px 30px var(--DimGlowYellow);
 }
 .RUdesc{
-    font-size: 75%;
+    font-size: var(--DescFontSize);
 }
 
 .N_5278{
     position: relative;
     width: 20%;
-    height: auto;
+    height: fit-content;
 }
 .N8name{
     height:10%;
+    font-size: var(--NameFontSize);
 }
 .N8pic{
     width: 100%;
@@ -68,16 +78,17 @@
     box-shadow: 0px 0px 30px var(--DimGlowYellow);
 }
 .N8desc{
-    font-size: 75%;
+    font-size: var(--DescFontSize);
 }
 
 .Ghor1ko{
     position: relative;
     width: 20%;
-    height: auto;
+    height: fit-content;
 }
 .GOname{
     height:10%;
+    font-size: var(--NameFontSize);
 }
 .GOpic{
     width: 100%;
@@ -85,5 +96,13 @@
     box-shadow: 0px 0px 30px var(--DimGlowYellow);
 }
 .GOdesc{
-    font-size: 75%;
+    font-size: var(--DescFontSize);
+}
+
+
+.other{
+    font-family: Bahnshift;
+    color: white;
+    font-size: 50px;
+    text-align: center;
 }
