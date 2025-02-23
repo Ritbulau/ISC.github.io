@@ -161,3 +161,21 @@
     cursor: pointer;
     scale: 105%;
 }
+
+.steamWidget{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    scale: 140%;
+    filter:drop-shadow(0px 0px 20px var(--GlowYellow));
+    animation: pulse 0.75s ease-in-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes pulse
+{
+    0% { filter:drop-shadow(0px 0px 20px var(--DimGlowYellow)); }
+    50% { filter:drop-shadow(0px 0px 15px var(--DimGlowYellow)); }
+    100% { filter:drop-shadow(0px 0px 20px var(--DimGlowYellow)); }
+}
