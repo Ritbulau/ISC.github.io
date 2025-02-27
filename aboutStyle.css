@@ -66,11 +66,6 @@
 .CPimg3{
     width: 30vw;
     
-    /*
-    margin-left: 2.5vw;
-    margin-top: 2vw;
-    margin-bottom: 2vw;
-    */
     filter:drop-shadow(0px 0px 15px var(--DimWhiteYellow));
 }
 
