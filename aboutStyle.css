@@ -29,16 +29,32 @@
 
 .CPimagesHolder{       
     z-index: 0;
-    /* position: absolute; */
     margin-top: 75px;
 
     /*
-    width: 99vw;
-    height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3, 500px);
+    grid-template-rows: repeat(3, 500px);
+    gap: 10px;
+    width: 1000px;
+    height: 700px;
+    grid-template-areas: 
+    "a . b"
+    "a . b"
+    "a . b";
     */
-    display: flex;
-    justify-content:space-evenly;
-    width: 100vw;
+    /*padding: 50px 50px 50px 50px;*/
+
+
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    grid-auto-rows: 250px;
+    grid-template-areas:
+        "a e"
+        "b f"
+        "c g";
+    align-items: start;
 
     border-bottom-color: var(--WhiteYellow);
     border-top-color: var(--WhiteYellow);
@@ -51,22 +67,50 @@
     font-family: Bahnschrift;
 }
 
-.CPimg1{
-    width: 30vw;
-    
+.CPimg{
+    width: 400px;
     filter:drop-shadow(0px 0px 15px var(--DimWhiteYellow));
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.CPimg1{
+    grid-area: a;
+    content:url(CPImages/CP_image_1.png);
 }
 
 .CPimg2{
-    width: 30vw;
-    
-    filter:drop-shadow(0px 0px 15px var(--DimWhiteYellow));
+    grid-area: b;
+    content:url(CPImages/CP_image_2.png);
 }
 
 .CPimg3{
-    width: 30vw;
-    
-    filter:drop-shadow(0px 0px 15px var(--DimWhiteYellow));
+    grid-area: c;
+    content:url(CPImages/CP_image_3.png);
+}
+
+.CPimg4{
+    grid-area: e;
+    content:url(CPImages/CP_image_1.png);
+}
+
+.CPimg5{
+    grid-area: f;
+    content:url(CPImages/CP_image_2.png);
+}
+
+.CPimg6{
+    grid-area: g;
+    content:url(CPImages/CP_image_3.png);
+}
+
+.L{
+    margin-left: 0;
+}
+
+.R{
+    margin-right: 0;
+    left:0;
 }
 
 .SmallDesc{
