@@ -49,11 +49,11 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
+    padding-left: 30px;
+    padding-right: 30px;
     grid-auto-rows: 250px;
     grid-template-areas:
-        "a e"
-        "b f"
-        "c g";
+        "l c r";
     align-items: start;
 
     border-bottom-color: var(--WhiteYellow);
@@ -105,12 +105,11 @@
 }
 
 .L{
-    margin-left: 0;
+    justify-self: start;
 }
 
 .R{
-    margin-right: 0;
-    left:0;
+    justify-self: end;
 }
 
 .SmallDesc{
