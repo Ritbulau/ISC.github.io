@@ -2,7 +2,6 @@
     margin-left: auto;
     margin-right: auto;
     filter:drop-shadow(0px 0px 50px var(--DimWhiteYellow));
-    margin-top: 220px;
     justify-content: center;
 }
 
@@ -11,7 +10,7 @@
     color: var(--WhiteYellow);
     text-align: center;
     font-family: Bahnschrift;
-    font-size: 50px;
+    font-size: 30px;
     text-shadow: 0px 0px 10px var(--WhiteYellow);
     letter-spacing: 8px;
     word-spacing: 6px;
@@ -21,7 +20,7 @@
     display:block;
     margin-left:auto;
     margin-right:auto;
-    width: 80%;
+    width: 100%;
 }
 .imgCP:hover{
     cursor: pointer;
@@ -47,69 +46,75 @@
 
 
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     gap: 10px;
-    padding-left: 30px;
-    padding-right: 30px;
-    grid-auto-rows: 250px;
+    grid-auto-rows: 750px;
     grid-template-areas:
         "l c r";
     align-items: start;
-
-    border-bottom-color: var(--WhiteYellow);
-    border-top-color: var(--WhiteYellow);
-    border-left-color: rgba(0,0,0,0);
-    border-right-color: rgba(0,0,0,0);
-
-    border-style:solid;
-    border-width: 2px;
 
     font-family: Bahnschrift;
 }
 
 .CPimg{
     width: 400px;
-    filter:drop-shadow(0px 0px 15px var(--DimWhiteYellow));
     margin-top: auto;
     margin-bottom: auto;
 }
 
 .CPimg1{
-    grid-area: a;
     content:url(CPImages/CP_image_1.png);
 }
 
 .CPimg2{
-    grid-area: b;
+    margin-top: 10px;
     content:url(CPImages/CP_image_2.png);
 }
 
 .CPimg3{
-    grid-area: c;
+    margin-top: 10px;
     content:url(CPImages/CP_image_3.png);
 }
 
 .CPimg4{
-    grid-area: e;
     content:url(CPImages/CP_image_1.png);
 }
 
 .CPimg5{
-    grid-area: f;
+    margin-top: 10px;
     content:url(CPImages/CP_image_2.png);
 }
 
 .CPimg6{
-    grid-area: g;
+    margin-top:10px;
     content:url(CPImages/CP_image_3.png);
 }
 
 .L{
     justify-self: start;
+    justify-content: space-evenly;
+    width: auto;
+
+    border-style: double;
+    border-width: 3px;
+    padding: 10px;
+    border-color: var(--WhiteYellow);
+
+    
+    box-shadow: 0px 0px 15px var(--DimWhiteYellow);
 }
 
 .R{
     justify-self: end;
+    justify-content: space-evenly;
+    width: auto;
+    border-style: double;
+    border-width: 3px;
+    padding: 10px;
+    border-color: var(--WhiteYellow);
+
+
+    box-shadow: 0px 0px 15px var(--DimWhiteYellow);
 }
 
 .SmallDesc{
@@ -119,4 +124,12 @@
     width: 100%;
     text-align: center;
     font-size: xx-large;
+    margin-top: 75px;
+    text-shadow: 0px 0px 10px var(--WhiteYellow);
 }
+
+.CPsteamWidget{
+    margin-top:100px;
+}
+
+
