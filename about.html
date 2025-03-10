@@ -2,11 +2,11 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <meta name="description" content="IronStone Collective webside. We're a small indie-gamedev team, hope You will enjoy our experiences!">
+        <meta name="description" content="Stop The F is a first-person puzzle gamewhere photographing objects traps them in the camera's subspace.">
         <title>
-            About ISC
+            Stop The F
         </title>
-        <link rel="icon" type="image/png" sizes="160x160" href="isc_logo.png">
+        <link rel="icon" type="image/png" sizes="160x160" href="stf_logo.png">
         <link rel="stylesheet" href="mainStyle.css">
         <link rel="stylesheet" href="aboutStyle.css">
     </head>
@@ -39,15 +39,40 @@
         <button class="homeBtn" onclick="location.href = '/'" type="button"></button>
 
 
-        <div  class="HugeCPLogo">
-            <p class="CPText">
-                OUR CURRENT PROJECT IS
-            </p>
-            <img src="StopTheFfullLogo.png" alt="Current Project logo" class="imgCP" onclick="location.href = 'STF.html'">
-            <div class="CPimagesHolder">
-                <img src="CPImages/CP_image_1.png" alt="Current Project image 1" class="CPimg1">
-                <img src="CPImages/CP_image_2.png" alt="Current Project image 2" class="CPimg2">
-                <img src="CPImages/CP_image_3.png" alt="Current Project image 3" class="CPimg3">
+        
+        <span class="SmallDesc">
+            <span class="FirstPartSD">
+                <a class="SDstf" href = '/STF'>Stop The F</a> is a first-person puzzle game
+            </span><br>where photographing objects traps them in the camera's subspace.
+        </span>
+
+        <div class="CPimagesHolder">
+            <div class="LeftHolder L">
+                <div class="CPimg1 CPimg"></div>
+                <div class="CPimg2 CPimg"></div>
+                <div class="CPimg3 CPimg"></div>
+            </div>
+
+            <div class="MiddleStuff">
+                <video autoplay muted loop class="CPVidPlayer">
+                    <source src="/trailer.mp4" type="video/mp4" />
+                </video>
+                <!--
+                <div  class="HugeCPLogo">
+                    <p class="CPText">
+                        OUR CURRENT PROJECT IS
+                    </p>
+                    <img src="StopTheFfullLogo.png" alt="Current Project logo" class="imgCP" onclick="location.href = 'STF.html'">
+                </div>        
+                -->
+                <iframe src="https://store.steampowered.com/widget/2846770/" frameborder="0" width="900" height="450" class="CPsteamWidget"></iframe>
+            </div>
+
+
+            <div class="RightHolder R">
+                <div class="CPimg4 CPimg"></div>
+                <div class="CPimg5 CPimg"></div>
+                <div class="CPimg6 CPimg"></div>
             </div>
         </div>
 
