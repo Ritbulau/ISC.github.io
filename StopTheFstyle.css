@@ -78,17 +78,18 @@
 }
 
 .CPimg4{
-    content:url(CPImages/CP_image_1.png);
+    content:url(CPImages/CP_image_4.png);
 }
 
 .CPimg5{
     margin-top: 10px;
-    content:url(CPImages/CP_image_2.png);
+    content:url(CPImages/CP_image_5.png);
+    filter:brightness(150%);
 }
 
 .CPimg6{
     margin-top:10px;
-    content:url(CPImages/CP_image_3.png);
+    content:url(CPImages/CP_image_6.png);
 }
 
 .L{
@@ -203,4 +204,55 @@
 }
 .Cyberlink:hover{
     font-size: 105%;
+}
+
+.Question{
+    display: block;
+    margin-top: 20px;
+    color: var(--WhiterYellow);
+    padding-left: 10px;
+}
+
+.Answer{
+    display: block;
+    margin-top: -5px;
+    padding: 20px;
+    padding-left: 30px;
+    padding-right: 50px;
+    border-bottom-style: solid;
+    border-bottom-color: var(--WhiteYellow);
+}
+
+.contact{
+    font-family: Bahnschrift;
+    color: white;
+    font-size: 3vw;
+    width: 90%;
+    margin: auto;
+}
+.youCan{
+    display: block;
+    margin-left: 5%;
+    margin-top: 50px;
+    text-shadow: 0px 0px 30px rgba(255, 255, 255, 0.596);
+}
+.contactsHolder{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.Btn{
+    scale: 100%;
+    transition-property: scale;
+    transition-duration: 0.5s;
+    transition-delay: 0s;
+    height: 4vw;
+    filter:drop-shadow(0px 0px 20px rgba(255, 255, 255, 0.336));
+}
+
+.Btn:hover{
+    cursor: pointer;
+    scale: 105%;
 }
